@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "tangnano9k-kr260-hat")(type "KiCad")(uri "${KIPRJMOD}/footprints/tangnano9k-kr260-hat.pretty")(options "")(descr "Project footprints of the HAT (QN88P per UG119E)"))
+)

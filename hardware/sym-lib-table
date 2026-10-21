@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "tangnano9k-kr260-hat")(type "KiCad")(uri "${KIPRJMOD}/symbols/tangnano9k-kr260-hat.kicad_sym")(options "")(descr "Project symbols of the Tang Nano 9K HAT for KR260 (GW1NR-9 QN88P, TMI7003C, SN74AVC4T774, 74LVC244A, P25Q32U)"))
+)

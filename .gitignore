@@ -1,0 +1,19 @@
+# --- KiCad ---
+*-backups/
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*.kicad_prl
+fp-info-cache
+_autosave-*
+*.bak
+*.lck
+.history/
+
+# --- Third-party, confidential ---
+# AMD XTP744 KR260 carrier 3D model (marked Xilinx confidential): keep it local, never commit
+hardware/xtp744-*.zip
+
+# --- OS / misc ---
+.DS_Store
+Thumbs.db
+*.tmp
