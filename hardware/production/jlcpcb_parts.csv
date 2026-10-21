@@ -35,7 +35,7 @@ JTAG ext. 1V8|PinHeader_1x06_P2.54mm_Vertical,1,C492405,XFCN,PZ254V-11-06P,THT; 
 S1 (user button)|SW_SPST_PTS810,1,C221895,C&K,PTS810SJG250SMTRLFS,
 "S2 (user button, JTAGSEL_N)|SW_SPST_PTS810",1,C221895,C&K,PTS810SJG250SMTRLFS,
 USBLC6-2SC6|SOT-23-6,1,C7519,STMicroelectronics,USBLC6-2SC6,
-TMI7003C|QFN-20-1EP_3x3mm_P0.4mm_EP1.65x1.65mm,1,,TMI,TMI7003C,not in the JLCPCB stock snapshot: Global Sourcing or consigned
+TMI7003C|QFN-20-1EP_3x3mm_P0.4mm_EP1.65x1.65mm,1,C840566,TMI,TMI7003C,extended part; pinout and 2.5-5.5 V input checked against datasheet V1.5
 ME6211C12M5|SOT-23-5,1,C236672,MICRONE Nanjing Micro One Elec,ME6211C12M5G-N,
 GW1NR-LV9QN88PC6/I5|GW1NR_QN88P_10x10mm_P0.4mm_EP6.8mm,1,,Gowin,GW1NR-LV9QN88PC6/I5,not in the JLCPCB stock snapshot: Global Sourcing or consigned
 W25Q32JVZPIQ|WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4mm,1,C571260,Winbond,W25Q32JVZPIQ,Proposed replacement for P25Q32U

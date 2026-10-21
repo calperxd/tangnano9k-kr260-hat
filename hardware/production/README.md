@@ -46,8 +46,9 @@ fab clips it).
 
 - Double-sided: 109 parts on the top, 58 on the bottom (decoupling of the GW1NR and FT2232H, 1.2 V LDO, the D3/D4 power OR-ing diodes with C14, J130).
 - Through-hole: J130 (2 × 20 female header, bottom side) and J90 (1 × 6 header, top, optional external JTAG).
-- Not in the JLCPCB stock snapshot used for the BOM (2026-10-21): GW1NR-LV9QN88PC6/I5 and TMI7003C. Use JLCPCB
-  Global Sourcing or send them as consigned parts.
+- GW1NR-LV9QN88PC6/I5 is not in the JLCPCB stock snapshot used for the BOM (2026-10-21) and has no LCSC number in
+  the BOM: use JLCPCB Global Sourcing or send it as a consigned part. The TMI7003C is matched to C840566 (extended
+  part); check its stock in the BOM tool and pre-order it if needed.
 - The logic ICs must be genuine Texas Instruments parts: the isolation scheme relies on their Ioff (partial
   power-down) behavior.
 - Check the orientation of every part in JLCPCB's placement preview before confirming. KiCad and JLCPCB use
@@ -89,7 +90,6 @@ Checked against the KR260 3D model (XTP744, `KR260-startkit-A02.stp`), not on ha
 - K26 PUDC_B state (ISO-14), final pull-down values (ISO-12), PTC and ferrite ratings (PWR-04).
 - Link routing priority and length matching (PCB-02, PCB-03), buck converter loop review (PWR-04), signal
   integrity simulation (PCB-14).
-- TMI7003C datasheet, including its minimum input voltage now that +5V is one Schottky drop below the source;
-  W25Q32JV compatibility with the GW1NR-9 MSPI boot.
+- W25Q32JV compatibility with the GW1NR-9 MSPI boot.
 - Power budget (PWR-04) against the 1.0 A of the J21 5 V and the current offered by the USB source.
 - Human design review of schematic and layout.
