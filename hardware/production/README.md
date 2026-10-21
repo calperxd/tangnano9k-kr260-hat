@@ -45,10 +45,9 @@ fab clips it).
 ## Assembly (PCBA)
 
 - Double-sided: 109 parts on the top, 58 on the bottom (decoupling of the GW1NR and FT2232H, 1.2 V LDO, the D3/D4 power OR-ing diodes with C14, J130).
-- Through-hole: J130 (2 × 20 female header, bottom side) and J90 (1 × 6 header, top, optional external JTAG).
-- GW1NR-LV9QN88PC6/I5 is not in the JLCPCB stock snapshot used for the BOM (2026-10-21) and has no LCSC number in
-  the BOM: use JLCPCB Global Sourcing or send it as a consigned part. The TMI7003C is matched to C840566 (extended
-  part); check its stock in the BOM tool and pre-order it if needed.
+- Through-hole: J130 (2 × 20 female header, bottom side) and J90 (1 × 6 header, top, external JTAG). Both are
+  assembled; JLCPCB solders them by hand and prices that in the order.
+- Every BOM part is assembled; two of them must be in "My Parts Lib" first (next section).
 - The logic ICs must be genuine Texas Instruments parts: the isolation scheme relies on their Ioff (partial
   power-down) behavior.
 - Check the orientation of every part in JLCPCB's placement preview before confirming. KiCad and JLCPCB use
@@ -59,6 +58,25 @@ fab clips it).
 - Fiducials: FID1-FID3 on the top side. The bottom side has none.
 
 Stock and prices come from a catalog snapshot and change daily; JLCPCB's BOM tool shows the current state.
+
+### Full assembly: parts to secure before the PCBA order
+
+The board is ordered fully assembled. Two parts are not in JLCPCB's assembly stock and must be in the private
+parts library ("My Parts Lib") before the PCBA order:
+
+1. U2, TMI7003C (C840566, extended part): Parts Manager → Order Parts → search C840566 → quantity → Add to My
+   Part Lib → checkout. It is a pre-order: JLCPCB confirms the price within 48 h, and the parts can only be used
+   once they reach its warehouse.
+2. U4, GW1NR-LV9QN88PC6/I5 (no LCSC number): request it through JLCPCB Global Sourcing in the Parts Manager.
+   JLCPCB buys it from global distributors, with a lead time of about 9-15 days.
+3. Order one of each per assembled board, plus spares if wanted; leftovers stay in "My Parts Lib".
+4. When both are in "My Parts Lib", place the PCB + PCBA order: U2 and U4 match the private library in the BOM
+   step, and every other line comes from JLCPCB stock (all in stock for 5 boards in the 2026-10-20 catalog
+   snapshot). Do not mark any part "Do not place".
+
+JLCPCB's help article "How to build your own parts library in JLCPCB" (updated 2026-09-09): for the same part,
+Global Sourcing or consigned stock cannot be combined with pre-order or JLCPCB stock; different parts have no such
+restriction, so U4 from Global Sourcing and U2 from pre-order go in the same order.
 
 ## Power inputs (README rev. 0.6)
 
