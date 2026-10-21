@@ -2,6 +2,16 @@
 
 Hardware, firmware, integration and validation requirements for a custom FPGA board based on the Tang Nano 9K, installed directly on the 40-pin J21 header of the KR260.
 
+<p align="center">
+  <img src="hardware/renders/pcb_iso.png" alt="3D render of the HAT, top side" width="820">
+</p>
+
+| Top | Bottom |
+|:---:|:---:|
+| <img src="hardware/renders/pcb_top.png" alt="Top side, plan view" width="400"> | <img src="hardware/renders/pcb_bottom.png" alt="Bottom side, plan view" width="400"> |
+
+<p align="center"><sub>KiCad 3D renders of board revision 0.4 (65 × 56.5 mm, 4 layers). The board has not been manufactured yet.</sub></p>
+
 | Field | Value |
 |---|---|
 | Document revision | 0.6 — power from the USB-C or from the KR260 J21 5 V (Schottky OR-ing) |
@@ -1035,3 +1045,7 @@ The current scope is a **customized Tang Nano 9K, without Pmods, mounted on the 
 The project will be ready for use when the fit and electrical safety are proven, the preserved functions pass the tests, the link operates according to the protocol under load and backpressure, and the hardware/firmware package results in reproducible builds and measurements.
 
 **Current status: requirements consolidated; J21 → K26 map cross-checked against the KR260 carrier schematic and the K26 SOM XDC (F12, F13) as a document check; preliminary schematic captured and PCB prepared for JLCPCB fabrication and assembly, with a provisional outline (Proposed), powered from the USB-C or from the J21 5 V since rev. 0.6; production files generated for an order, not released; mechanical fit checked only against the KR260 3D model (XTP744, F14), physical fit check Pending; no PCB manufactured, and no full compatibility or link speed proven by this document.**
+
+## License
+
+Copyright © 2026 Gabriel Calper. All rights reserved. The design is published for portfolio and reference purposes; no license is granted to copy, modify or manufacture it. See [LICENSE](LICENSE).

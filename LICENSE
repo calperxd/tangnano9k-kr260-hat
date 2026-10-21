@@ -1,0 +1,11 @@
+Copyright (c) 2026 Gabriel Calper. All rights reserved.
+
+The contents of this repository (schematics, PCB layout, production files,
+renders, 3D model, documentation and scripts) are published for portfolio and
+reference purposes only. No license is granted to copy, modify, distribute,
+manufacture or sell this design, in whole or in part, without prior written
+permission from the copyright holder.
+
+Third-party material used in the design keeps its own terms. This includes the
+KiCad library footprints and 3D models, and the manufacturer documents cited in
+README.md, which are not included in this repository.
