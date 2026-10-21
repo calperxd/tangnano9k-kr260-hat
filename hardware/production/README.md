@@ -51,8 +51,11 @@ fab clips it).
 - The logic ICs must be genuine Texas Instruments parts: the isolation scheme relies on their Ioff (partial
   power-down) behavior.
 - Check the orientation of every part in JLCPCB's placement preview before confirming. KiCad and JLCPCB use
-  different zero orientations for some packages (SOT-23, SOT-23-6, TSSOP, QFN); the CPL has no rotation offsets
-  applied.
+  different zero orientations for some packages (SOT-23, SOT-23-6, TSSOP, QFN); apart from J90 and J130, the CPL
+  has no rotation offsets applied.
+- J90 (pin header) and J130 (socket): KiCad puts their origin on pin 1 with the pins along Y, while the JLCPCB
+  footprints are centred with the pins along X. `make_jlcpcb.py` writes them at the centre of their pads, turned
+  by -90 degrees (J90 at 270, J130 at 180). Both are unpolarized.
 - D3 and D4 (B5819W, SOD-123, bottom side) carry all the board power: in the bottom-side placement preview, check
   that their cathode band sits on pad 1, toward the +5V side (D3: anode from F1, D4: anode from the J21 5 V).
 - Fiducials: FID1-FID3 on the top side. The bottom side has none.
