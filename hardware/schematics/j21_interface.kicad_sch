@@ -5245,7 +5245,7 @@
 		)
 		(uuid "f1dbde67-680b-4b81-9bac-c440a359ba15")
 	)
-	(global_label "GW_LINK_D8"
+	(global_label "GW_LINK_D9"
 		(shape input)
 		(at 60.96 109.22 180)
 		(fields_autoplaced yes)
@@ -5267,7 +5267,7 @@
 			)
 		)
 	)
-	(label "J21_D8"
+	(label "J21_D9"
 		(at 121.92 109.22 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5278,7 +5278,7 @@
 		)
 		(uuid "404b3cfb-f565-4458-a000-f39dbbe5a920")
 	)
-	(global_label "GW_LINK_D9"
+	(global_label "GW_LINK_D8"
 		(shape input)
 		(at 60.96 111.76 180)
 		(fields_autoplaced yes)
@@ -5300,7 +5300,7 @@
 			)
 		)
 	)
-	(label "J21_D9"
+	(label "J21_D8"
 		(at 121.92 111.76 0)
 		(fields_autoplaced yes)
 		(effects
