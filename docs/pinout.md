@@ -59,9 +59,9 @@ Signals, K26 pins and package pin names: S1 and F11, cross-checked against F12 (
 | 18 | GPIO24 | RPI_GPIO24 (HDB20) | a48 | Y9 | IO_L11P_AD1P_43 | 43 | — | reserve (NC) | NC | — | — |
 | 19 | GPIO10 | RPI_GPIO10_MOSI (HDC10) | c59 | AE13 | IO_L4P_AD12P_44 | 44 | — | LINK_D7 | D7 | 77 (IOT37A), bank 1 | U131 1A1→1Y1, R139 22R |
 | 20 | GND | GND | — | — | — | — | — | GND | GND | — | — |
-| 21 | GPIO9 | RPI_GPIO9_MISO (HDC09) | c58 | AC13 | IO_L6N_HDGC_44 | 44 | HDGC N | LINK_D8 | D8 | 48 (IOR24B), bank 1 | U131 1A2→1Y2, R140 22R |
+| 21 | GPIO9 | RPI_GPIO9_MISO (HDC09) | c58 | AC13 | IO_L6N_HDGC_44 | 44 | HDGC N | LINK_D8 | D8 | 48 (IOR24B), bank 1 | U131 1A3→1Y3, R141 22R |
 | 22 | GPIO25 | RPI_GPIO25 (HDB21) | a50 | AA8 | IO_L11N_AD1N_43 | 43 | — | reserve (NC) | NC | — | — |
-| 23 | GPIO11 | RPI_GPIO11_SCLK (HDC11) | c60 | AF13 | IO_L4N_AD12N_44 | 44 | — | LINK_D9 | D9 | 49 (IOR24A), bank 1 | U131 1A3→1Y3, R141 22R |
+| 23 | GPIO11 | RPI_GPIO11_SCLK (HDC11) | c60 | AF13 | IO_L4N_AD12N_44 | 44 | — | LINK_D9 | D9 | 49 (IOR24A), bank 1 | U131 1A2→1Y2, R140 22R |
 | 24 | GPIO8 | RPI_GPIO8_CE0 (HDC08_CC) | c56 | AC14 | IO_L6P_HDGC_44 | 44 | HDGC P | LINK_D10 | D10 | 50 (IOR22B), bank 1 | U131 2A0→2Y0, R142 22R |
 | 25 | GND | GND | — | — | — | — | — | GND | GND | — | — |
 | 26 | GPIO7 | RPI_GPIO7_CE1 (HDC07) | c55 | AH13 | IO_L3N_AD13N_44 | 44 | — | LINK_D11 | D11 | 53 (IOR15B/DOUT/WE_N), bank 1 | U131 2A1→2Y1, R143 22R |
